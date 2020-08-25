@@ -3,6 +3,11 @@
 // https://greensock.com/scrolltrigger/
 
 // module aliases
+
+window.onbeforeunload = function () {
+    window.scrollTo(0, 0);
+}
+
 var Engine = Matter.Engine,
     Render = Matter.Render,
     World = Matter.World,
