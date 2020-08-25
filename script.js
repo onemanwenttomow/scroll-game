@@ -70,8 +70,8 @@ Render.run(render);
 
 document.addEventListener('click', function() {
     console.log('ball',ball);
-    // Body.scale(ball, 0.5, 0.5);
-    Body.translate(pointerFromRight, {x: -30, y:0})
+    Body.scale(ball, 0.5, 0.5);
+    // Body.translate(pointerFromRight, {x: -30, y:0})
 
 });
 
